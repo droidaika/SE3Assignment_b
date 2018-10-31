@@ -43,7 +43,7 @@ public class DriverApplication{
 
 		}
 
-		// Creates 10 mock students and add them to modules
+		// Creates 12 mock students rgeb adds courses and modules to them
 		for (int j = 0; j < 12; j++) {
 		
 
@@ -62,7 +62,7 @@ public class DriverApplication{
 			student.addModuleToList(modules[2]);
 		}
 
-		
+		//prints
 		for(Course course : courses){
 		ArrayList<Module>CourseModuleList = course.getModuleList();
 		for (Module module : CourseModuleList) {
@@ -88,6 +88,8 @@ public class DriverApplication{
 		}
 
 	}
+	
+	//gets random date between 2 inputted dates
 	
 	private static DateTime getRandomDate(long beginTime,long endTime){
 		long diff = endTime - beginTime + 1;
