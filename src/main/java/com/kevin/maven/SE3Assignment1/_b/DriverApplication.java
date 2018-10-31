@@ -65,6 +65,7 @@ public class DriverApplication{
 		//prints
 		for(Course course : courses){
 		ArrayList<Module>CourseModuleList = course.getModuleList();
+		System.out.println("\nCourse: " + course.getName());
 		for (Module module : CourseModuleList) {
 			System.out.println("\nMODULE: " + module.getName());
 			
