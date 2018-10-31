@@ -36,7 +36,7 @@
     <dependency>
 	    <groupId>com.github.droidaika</groupId>
 	    <artifactId>SE3Assignment1</artifactId>
-	    <version>-SNAPSHOT</version>
+	    <version>master</version>
 	</dependency>
   </dependencies>
 </project>
